@@ -1,0 +1,29 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "standard"
+  ],
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true,
+    "browser": false
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": false
+    },
+    "sourceType": "module"
+  },
+  "globals": {
+    "strapi": true
+  },
+  "rules": {
+    "eol-last": ["error", "always"]
+  },
+  "plugins": [
+    "json"
+  ]
+}
